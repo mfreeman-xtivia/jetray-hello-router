@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "ngcout",
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es2015", "dom"],
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": true
+  },
+   "angularCompilerOptions": {
+   "genDir": "aot",
+   "skipMetadataEmit" : true
+  },
+  "files": [
+    "src/hello_router_aot.ts"
+  ]
+}
